@@ -5,12 +5,7 @@ This repository contains MATLAB scripts and tools for analyzing multi-electrode 
 
 ## Structure
 - **TDTSDK/**: TDT (Tucker-Davis Technologies) MATLAB SDK for analyzing neurophysiological data
-  - **APIStreamer/**: Tools for streaming data from TDT hardware
-  - **OpenExLive/**: Live data acquisition tools
-  - **SynapseAPI/**: API for interacting with TDT Synapse software
-  - **SynapseLive/**: Live data analysis tools for Synapse
   - **TDTbin2mat/**: Converts TDT binary files to MATLAB format
-  - **UDP/**: Network communication tools
 
 - **scripts/**: Analysis scripts for MEA data processing
   - **Psychoplastogen_FFT_1D.m**: Frequency analysis of MEA recordings
@@ -41,4 +36,3 @@ Results are saved as both data (.csv) and visualizations (.png).
 ## Dependencies
 - MATLAB
 - TDT MATLAB SDK (included in repository)
-- TDT Synapse Software (for data acquisition)
